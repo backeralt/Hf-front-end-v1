@@ -1,0 +1,29 @@
+.body {
+    width: 95%;
+}
+
+.word {
+    margin-left: -28px;
+}
+
+
+@media only screen and (min-width:700px) {
+
+    .container {
+
+        display: flex;
+        /* justify-content: space-between; */
+        /* grid-template-columns: 180px auto; */
+
+    }
+
+
+}
+
+@media only screen and (max-width:1000px) {
+
+    .word {
+        display: none;
+    }
+
+}
